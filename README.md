@@ -23,11 +23,11 @@ RORI can be the number of people, number of households, number of residential ad
 ### First, create spatial k-anonymized polygons - SKApoly (three options below):
 **Scope**: aggregate polygons to create new polygons that have attribute values that are equal or greater than a minimum value
 
-1. _AdaptiveElimination_: Creates spatial K-anonymized polygons by eliminating irregular polygons; iteration goes to each set of polygons of the same RORI value
+1. _AdaptiveElimination_: Creates spatial K-anonymized polygons by eliminating irregular polygons; iterates through each set of polygons of the same RORI value starting from the minimum
 
-2. _AdaptiveDissolvingID_: Creates spatial K-anonymized polygons by dissolving regular polygons; iteration goes to each polygon
+2. _AdaptiveDissolvingID_: Creates spatial K-anonymized polygons by dissolving regular polygons; iterates through each polygon based on its ID attribute
 
-3. _AdaptiveDissolvingMin_: Creates spatial K-anonymized polygons by dissolving regular polygons; iteration goes to each set of polygons of the same RORI value
+3. _AdaptiveDissolvingMin_: Creates spatial K-anonymized polygons by dissolving regular polygons; iteration goes to each set of polygons of the same RORI value starting from the minimum
 
 ### Second, mask original data (three options below):
 4. _PointAggregation_: original points are displaced to the centroid of their corresponding SKApoly.
@@ -40,7 +40,7 @@ RORI can be the number of people, number of households, number of residential ad
 - The codes are written in Python and use the ArcPy package: https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm
 - Data should be in a shapefile format: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/shapefiles/what-is-a-shapefile.htm 
 - Data should additonaly be copied into a personal database (.mdb): https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/create-personal-geodatabase.htm
-
+- Sample data to test the codes are provided (point, polygon, and roads files); data are located in Saxony, Germany.
 
 ## References
 
