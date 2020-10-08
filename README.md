@@ -34,6 +34,11 @@ RORI can be the number of people, number of households, number of residential ad
 
 6. _AdaptiveVoronoiMasking_: original data are displaced to the closest segment of their corresponding Voronoi polygon which is laying within their corresponding SKApoly. Two exceptions apply. If a Voronoi segment lies outside its SKApoly, the point is displaced to the boundary of the SKApoly. If there is only one point within the SKApoly, then it is randomly displaced within the SKApoly. Last, displaced points are further displaced to the closest street intersection.
 
+## Further information
+- The codes are written in Python and use the ArcPy package: https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm
+- Data should be in a shapefile format: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/shapefiles/what-is-a-shapefile.htm 
+- Data should additonaly be copied intoa personal database (.mdb): https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/create-personal-geodatabase.htm
+
 
 ## References
 
