@@ -37,7 +37,7 @@ RORI can be the number of people, number of households, number of residential ad
 ## Further information
 - The codes are written in Python and use the ArcPy package: https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm
 - Data should be in a shapefile format: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/shapefiles/what-is-a-shapefile.htm 
-- Data should additonaly be copied intoa personal database (.mdb): https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/create-personal-geodatabase.htm
+- Data should additonaly be copied into a personal database (.mdb): https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/create-personal-geodatabase.htm
 
 
 ## References
