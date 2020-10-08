@@ -21,6 +21,8 @@ RORI can be the number of people, number of households, number of residential ad
 ## A brief description of the codes
 
 ### First, create spatial k-anonymized polygons - SKApoly (three options below):
+**Scope**: aggregate polygons to create new polygons that have attribute values that are equal or greater than a minimum value
+
 1. _AdaptiveElimination_: Creates spatial K-anonymized polygons by eliminating irregular polygons
 
 2. _AdaptiveDissolvingID_: Creates spatial K-anonymized polygons by dissolving regular polygons
