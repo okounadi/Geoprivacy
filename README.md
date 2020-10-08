@@ -11,7 +11,7 @@ In adaptive geographical masking the degree of &quot;alteration&quot; or &quot;m
 RORI can be the number of people, number of households, number of residential addresses, or other. If RORI is not considered and applied in geographical masking, then data linkage can occur between a private-sensitive-confidential information and the RORI. Such linkage could lead to re-identification.
 
 ## To apply the codes you will need the following datasets:
-1. _Original data_: a point shapefile with the original locations of private-sensitive-confidential information.
+1. _Original data_: a point shapefile with the locations of private-sensitive-confidential information (e.g., locations of domestic violence events, addresses of patients with a desease).
 
 2. _RORI polygons_: a polygon shapefile with the attribute RORI (e.g., postcodes with the number of households in each polygon)
 
