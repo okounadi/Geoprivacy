@@ -23,11 +23,11 @@ RORI can be the number of people, number of households, number of residential ad
 ### First, create spatial k-anonymized polygons - SKApoly (three options below):
 **Scope**: aggregate polygons to create new polygons that have attribute values that are equal or greater than a minimum value
 
-1. _AdaptiveElimination_: Creates spatial K-anonymized polygons by eliminating irregular polygons; iterates through each set of polygons of the same RORI value starting from the minimum
+1. _AdaptiveElimination_: Creates spatial K-anonymized polygons by eliminating irregular polygons; iterates through each set of polygons of the same RORI value starting from the minimum value
 
 2. _AdaptiveDissolvingID_: Creates spatial K-anonymized polygons by dissolving regular polygons; iterates through each polygon based on its ID attribute
 
-3. _AdaptiveDissolvingMin_: Creates spatial K-anonymized polygons by dissolving regular polygons; iteration goes to each set of polygons of the same RORI value starting from the minimum
+3. _AdaptiveDissolvingMin_: Creates spatial K-anonymized polygons by dissolving regular polygons; iterates through each set of polygons of the same RORI value starting from the minimum value
 
 ### Second, mask original data (three options below):
 4. _PointAggregation_: original points are displaced to the centroid of their corresponding SKApoly.
