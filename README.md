@@ -50,4 +50,4 @@ Kounadi, O., &amp; Leitner, M. (2016). [Adaptive areal elimination (AAE): A tran
 
 Polzin, Fiona (2020) [Adaptive Voronoi Masking: A method to protect confidential discrete spatial data](https://studenttheses.library.uu.nl/search.php?m=course&amp;course=Geographical%20Information%20Management%20and%20Applications%20%28GIMA%29&amp;language=nl). MSc Thesis, GIMA – Geographical Information Management and Applications. University of Utrecht – TU Delft – Wageningen University – University of Twente.
 
-Charleux, L., & Schofield, K. (2020). [True spatial k-anonymity: adaptive areal elimination vs. adaptive areal masking] (https://www.tandfonline.com/doi/pdf/10.1080/15230406.2020.1794975?casa_token=Od_W_vEyoxEAAAAA:0phyEd_J4dslE-1Fq79eyPGQBxsIh1ulp2swwFPvZAAgZd1gsXsmIVEUmbeTyDkqrWo_DOwkvSbq0w). Cartography and Geographic Information Science, 1-13.
+Charleux, L., & Schofield, K. (2020). [True spatial k-anonymity: adaptive areal elimination vs. adaptive areal masking](https://doi.org/10.1080/15230406.2020.1794975). Cartography and Geographic Information Science, 1-13.
