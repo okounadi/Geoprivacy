@@ -42,7 +42,7 @@ RORI can be the number of people, number of households, number of residential ad
 - Data should additonaly be copied into a personal database (.mdb): https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/create-personal-geodatabase.htm
 - Sample data to test the codes are provided (point, polygon, and roads files); data are located in Saxony, Germany.
 
-- There is an **ArcGIS toolbox** that has been developed for Adaptive Areal Anonymization. The toolbox performs two methods: a)a different version of Adaptive Areal Elimination and b) Adaptive Areal Masking. The toolbox can be found here - [Adaptive Areal Anonymization Toolbox](https://www.arcgis.com/home/item.html?id=3ef11e690c1841c78df70433a2720724) 
+- There is an **ArcGIS toolbox** that has been developed for Adaptive Areal Anonymization. The toolbox performs two methods: a) a version of Adaptive Areal Elimination and b) Adaptive Areal Masking. The toolbox can be found here - [Adaptive Areal Anonymization Toolbox](https://www.arcgis.com/home/item.html?id=3ef11e690c1841c78df70433a2720724) 
 
 ## References
 
