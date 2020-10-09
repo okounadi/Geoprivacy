@@ -39,7 +39,7 @@ RORI can be the number of people, number of households, number of residential ad
 ## Further information
 - The codes are written in Python and use the ArcPy package: https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm
 - Data should be in a shapefile format: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/shapefiles/what-is-a-shapefile.htm 
-- Data should additonaly be copied into a personal database (.mdb): https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/create-personal-geodatabase.htm
+- Data should additionaly be copied into a personal database (.mdb): https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/create-personal-geodatabase.htm
 - Sample data to test the codes are provided (point, polygon, and roads files); data are located in Saxony, Germany.
 
 - There is an **ArcGIS toolbox** that has been developed for Adaptive Areal Anonymization. The toolbox performs two methods: a) a version of Adaptive Areal Elimination and b) Adaptive Areal Masking. The toolbox can be found here - [Adaptive Areal Anonymization Toolbox](https://www.arcgis.com/home/item.html?id=3ef11e690c1841c78df70433a2720724) 
