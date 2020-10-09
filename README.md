@@ -42,8 +42,12 @@ RORI can be the number of people, number of households, number of residential ad
 - Data should additonaly be copied into a personal database (.mdb): https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/create-personal-geodatabase.htm
 - Sample data to test the codes are provided (point, polygon, and roads files); data are located in Saxony, Germany.
 
+- There is an **ArcGIS toolbox** that has been developed for Adaptive Areal Anonymization. The toolbox performs two methods: a)a different version of Adaptive Areal Elimination and b) Adaptive Areal Masking. The toolbox can be found here - [Adaptive Areal Anonymization Toolbox](https://www.arcgis.com/home/item.html?id=3ef11e690c1841c78df70433a2720724) 
+
 ## References
 
 Kounadi, O., &amp; Leitner, M. (2016). [Adaptive areal elimination (AAE): A transparent way of disclosing protected spatial datasets](https://www.sciencedirect.com/science/article/pii/S0198971516300047). _Computers, Environment and Urban Systems_, _57_, 59-67
 
 Polzin, Fiona (2020) [Adaptive Voronoi Masking: A method to protect confidential discrete spatial data](https://studenttheses.library.uu.nl/search.php?m=course&amp;course=Geographical%20Information%20Management%20and%20Applications%20%28GIMA%29&amp;language=nl). MSc Thesis, GIMA – Geographical Information Management and Applications. University of Utrecht – TU Delft – Wageningen University – University of Twente.
+
+Charleux, L., & Schofield, K. (2020). [True spatial k-anonymity: adaptive areal elimination vs. adaptive areal masking[ (https://www.tandfonline.com/doi/pdf/10.1080/15230406.2020.1794975?casa_token=Od_W_vEyoxEAAAAA:0phyEd_J4dslE-1Fq79eyPGQBxsIh1ulp2swwFPvZAAgZd1gsXsmIVEUmbeTyDkqrWo_DOwkvSbq0w). Cartography and Geographic Information Science, 1-13.
